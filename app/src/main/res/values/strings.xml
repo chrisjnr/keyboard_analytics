@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">ThreatFabricAssessment</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="reference_text">He thought he would light the fire when he got inside, and make himself some breakfast, just to pass away the time; but he did not seem able to handle anything from a scuttleful of coals to a</string>
+    <string name="empty_text_place_holder">Type the paragraph here...</string>
+    <string name="error_please_enter_at_least_3_letters">Please Enter at least 3 letters</string>
+    <string name="prompt_enter_your_username">Enter your Username</string>
+    <string name="prompt_continue">Continue</string>
 </resources>

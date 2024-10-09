@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/userNameFragment">
+
+    <fragment
+        android:id="@+id/userNameFragment"
+        android:name="com.example.threatfabricassessment.ui.UserNameFragment"
+        android:label="fragment_user_name"
+        tools:layout="@layout/fragment_user_name">
+        <action
+            android:id="@+id/action_userNameFragment_to_typingFragment"
+            app:destination="@id/typingFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/typingFragment"
+        android:name="com.example.threatfabricassessment.ui.TypingFragment"
+        android:label="fragment_typing"
+        tools:layout="@layout/fragment_typing">
+        <argument
+            android:name="userName"
+            android:defaultValue=""
+            app:argType="string" />
+
+    </fragment>
+</navigation>
