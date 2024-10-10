@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/userNameFragment"
-        android:name="com.example.threatfabricassessment.ui.UserNameFragment"
+        android:name="com.example.threatfabricassessment.ui.username.UserNameFragment"
         android:label="fragment_user_name"
         tools:layout="@layout/fragment_user_name">
         <action
@@ -17,7 +17,7 @@
 
     <fragment
         android:id="@+id/typingFragment"
-        android:name="com.example.threatfabricassessment.ui.TypingFragment"
+        android:name="com.example.threatfabricassessment.ui.typing.TypingFragment"
         android:label="fragment_typing"
         tools:layout="@layout/fragment_typing">
         <argument
