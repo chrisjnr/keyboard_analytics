@@ -2,6 +2,7 @@ package com.example.threatfabricassessment.ui.typing
 
 import com.example.core.mvi.UiState
 
-sealed class TypingState: UiState() {
-    data object Idle : TypingState()
-}
+data class TypingState(
+    val wpmState: Int,
+    val adjustedWpmState: Int
+): UiState()

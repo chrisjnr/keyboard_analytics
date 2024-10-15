@@ -37,14 +37,50 @@
         app:layout_constraintTop_toBottomOf="@id/referenceTextView" />
 
     <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/lblFeedbackTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:gravity="center_horizontal"
+        android:text="Words Per Minute"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/etType" />
+
+    <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/feedbackTextView"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="152dp"
+        android:layout_marginTop="16dp"
+        android:gravity="center_horizontal"
+        android:text="0 WPM"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintTop_toBottomOf="@id/etType" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/labelAdjustedWpm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:gravity="center_horizontal"
+        android:text="Adjusted Words Per Minute"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="@+id/lblFeedbackTextView"
+        app:layout_constraintTop_toBottomOf="@id/lblFeedbackTextView" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvAdjustedWpm"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:gravity="center_horizontal"
         android:text="0 WPM"
         android:textSize="16sp"
-        app:layout_constraintTop_toBottomOf="@id/etType" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/feedbackTextView" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
