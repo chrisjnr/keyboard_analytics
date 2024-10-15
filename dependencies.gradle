@@ -15,4 +15,5 @@ ext {
     coroutines_android = '1.4.3'
     preference_ktx = '1.1.1'
     nav_version = "2.8.2"
+    room_version = "2.6.1"
 }
