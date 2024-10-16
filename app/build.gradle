@@ -52,7 +52,6 @@ dependencies {
     implementation "androidx.lifecycle:lifecycle-runtime-ktx:$lifecycle_runtime_ktx"
 
     testImplementation "junit:junit:$junit"
-    androidTestImplementation "androidx.test.ext:junit:$androidx_junit"
     androidTestImplementation "androidx.test.espresso:espresso-core:$espresso_core"
 
 
@@ -71,4 +70,9 @@ dependencies {
 //  navigation components
     implementation "androidx.navigation:navigation-fragment:$nav_version"
     implementation "androidx.navigation:navigation-ui:$nav_version"
+    testImplementation "io.mockk:mockk:$mockK"
+    androidTestImplementation "io.mockk:mockk-android:$mockK"
+    testImplementation "org.jetbrains.kotlinx:kotlinx-coroutines-test:1.4.1"
+    testImplementation "app.cash.turbine:turbine:0.12.1"
+
 }
