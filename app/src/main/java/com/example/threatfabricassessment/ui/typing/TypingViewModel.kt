@@ -1,7 +1,7 @@
 package com.example.threatfabricassessment.ui.typing
 
 import androidx.lifecycle.viewModelScope
-import com.booking.tripsassignment.core.BaseViewModel
+import com.example.core.BaseViewModel
 import com.example.domain.TypingUseCase
 import com.example.domain.models.WordEvent
 import com.example.threatfabricassessment.utils.getKeyCode

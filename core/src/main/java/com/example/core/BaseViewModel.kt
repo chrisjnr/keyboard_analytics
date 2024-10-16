@@ -1,4 +1,4 @@
-package com.booking.tripsassignment.core
+package com.example.core
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
